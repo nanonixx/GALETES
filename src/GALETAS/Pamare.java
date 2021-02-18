@@ -1,3 +1,5 @@
+package GALETAS;
+
 public class Pamare extends Thread{
     //pone galetas cuando no hay galetas
 

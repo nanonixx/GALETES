@@ -1,3 +1,5 @@
+package GALETAS;
+
 public class Pot {
     //es un pote
     //tiene 10 galetas max

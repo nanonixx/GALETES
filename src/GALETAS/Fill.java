@@ -1,3 +1,5 @@
+package GALETAS;
+
 public class Fill extends Thread{
     //comen 1 galetas uno a la vez
 
