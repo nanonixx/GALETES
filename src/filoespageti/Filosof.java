@@ -17,10 +17,12 @@ public class Filosof extends Thread{
 
     public synchronized void menjar(){
         forquillaPrincipal.agafar();
+        System.out.println(getNom() + " ha cogido una forquilla");
         forquillaAuxiliar.agafar();
         System.out.println(getNom() + " come los paguetis");
 
         forquillaPrincipal.deixar();
+        System.out.println(getNom() + " ha dejado una forquilla");
         forquillaAuxiliar.deixar();
         System.out.println(getNom() + " deja de comer los paguetis");
     }
